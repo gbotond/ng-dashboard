@@ -15,6 +15,7 @@ import { LineChartComponent } from './charts/line-chart/line-chart.component';
 import { DoughnutChartComponent } from './charts/doughnut-chart/doughnut-chart.component';
 
 import { ChartModule } from 'primeng/chart';
+import { RadarChartComponent } from './charts/radar-chart/radar-chart.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ChartModule } from 'primeng/chart';
     AppHealthComponent,
     BarChartComponent,
     LineChartComponent,
-    DoughnutChartComponent
+    DoughnutChartComponent,
+    RadarChartComponent
   ],
   imports: [
     BrowserModule,
