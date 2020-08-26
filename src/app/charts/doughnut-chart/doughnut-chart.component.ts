@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class DoughnutChartComponent implements OnInit {
 
   data: any;
+  options: any;
+  colors: any;
 
   constructor() {
     this.data = {
@@ -24,9 +26,10 @@ export class DoughnutChartComponent implements OnInit {
             "#FF6384",
             "#36A2EB",
             "#FFCE56"
-          ]
-        }]
-    };
+          ],
+          borderColor: "#111"
+        }],
+    }
   }
 
   ngOnInit(): void {
