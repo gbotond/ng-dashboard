@@ -1,7 +1,7 @@
 <div class="section-container">
     <h2>Latest Games</h2>
-    <table class="table table-inverse table-hover">
-        <thead class="thead-class">
+    <table class="table table-inverse table-hover table-dark">
+        <thead class="thead-dark">
             <tr>
                 <th>Visitor</th>
                 <th>Home</th>
@@ -17,8 +17,8 @@
                 <td>{{ game.home.fullName }}</td>
                 <td>{{ game.score }}</td>
                 <td>{{ game.status }}</td>
-                <td>{{ game.started }}</td>
-                <td>{{ game.finished }}</td>
+                <td>{{ game.started | date: 'short' }}</td>
+                <td>{{ game.finished | date: 'short' }}</td>
             </tr>
         </tbody>
     </table>
