@@ -1,0 +1,25 @@
+<div class="section-container">
+    <h2>Latest Games</h2>
+    <table class="table table-inverse table-hover">
+        <thead class="thead-class">
+            <tr>
+                <th>Visitor</th>
+                <th>Home</th>
+                <th>Score</th>
+                <th>Status</th>
+                <th>Started</th>
+                <th>Finished</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let game of games">
+                <td>{{ game.visitor.fullName }}</td>
+                <td>{{ game.home.fullName }}</td>
+                <td>{{ game.score }}</td>
+                <td>{{ game.status }}</td>
+                <td>{{ game.started }}</td>
+                <td>{{ game.finished }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

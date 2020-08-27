@@ -1,0 +1,9 @@
+.table {
+    color: #fffff5;
+    text-align: center;
+}
+
+tr:hover td{
+    background-color: #161a1e;
+    color: #fff;
+}
