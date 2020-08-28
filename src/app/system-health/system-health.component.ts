@@ -17,7 +17,7 @@ export class SystemHealthComponent implements OnInit {
 
   constructor() { }
 
-  server: Server[] = SAMPLE_SERVERS;
+  servers: Server[] = SAMPLE_SERVERS;
 
   ngOnInit(): void {
   }
