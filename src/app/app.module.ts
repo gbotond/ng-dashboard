@@ -9,13 +9,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { GameStatisticsComponent } from './game-statistics/game-statistics.component';
 import { GamesComponent } from './games/games.component';
-import { AppHealthComponent } from './app-health/app-health.component';
+import { SystemHealthComponent } from './system-health/system-health.component';
+import { ServerComponent } from './system-health/server/server.component';
+
 import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
 import { LineChartComponent } from './charts/line-chart/line-chart.component';
 import { DoughnutChartComponent } from './charts/doughnut-chart/doughnut-chart.component';
-
 import { ChartModule } from 'primeng/chart';
 import { RadarChartComponent } from './charts/radar-chart/radar-chart.component';
+
 
 @NgModule({
   declarations: [
@@ -24,11 +26,12 @@ import { RadarChartComponent } from './charts/radar-chart/radar-chart.component'
     SidebarComponent,
     GameStatisticsComponent,
     GamesComponent,
-    AppHealthComponent,
+    SystemHealthComponent,
     BarChartComponent,
     LineChartComponent,
     DoughnutChartComponent,
-    RadarChartComponent
+    RadarChartComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
