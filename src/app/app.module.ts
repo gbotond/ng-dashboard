@@ -17,6 +17,7 @@ import { LineChartComponent } from './charts/line-chart/line-chart.component';
 import { DoughnutChartComponent } from './charts/doughnut-chart/doughnut-chart.component';
 import { ChartModule } from 'primeng/chart';
 import { RadarChartComponent } from './charts/radar-chart/radar-chart.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { RadarChartComponent } from './charts/radar-chart/radar-chart.component'
     LineChartComponent,
     DoughnutChartComponent,
     RadarChartComponent,
-    ServerComponent
+    ServerComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
