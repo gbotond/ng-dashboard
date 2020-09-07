@@ -80,4 +80,12 @@ export class GamesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToPrevious(): void {
+    console.log('Previous button clicked');
+  }
+
+  goToNext(): void {
+    console.log('Next button clicked');
+  }
+
 }
