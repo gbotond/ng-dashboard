@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { GameStatisticsComponent } from './game-statistics/game-statistics.component';
-import { GamesComponent } from './games/games.component';
+import { GameComponent } from './game/game.component';
 import { SystemHealthComponent } from './system-health/system-health.component';
 import { ServerComponent } from './system-health/server/server.component';
 
@@ -27,7 +27,7 @@ import { PaginationComponent } from './pagination/pagination.component';
     NavbarComponent,
     SidebarComponent,
     GameStatisticsComponent,
-    GamesComponent,
+    GameComponent,
     SystemHealthComponent,
     BarChartComponent,
     LineChartComponent,
