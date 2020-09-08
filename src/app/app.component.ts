@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'NgDashboard';
-  subtitle = 'Business Intelligence Dashboard';
+  title = 'NBA Stats';
+  subtitle = 'NBA Statistics Dashboard';
 }
