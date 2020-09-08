@@ -1,20 +1,19 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { map } from 'rxjs/operators';
 
-@Injectable()
-export class SalesDataService {
+import { Game } from '../models/game';
 
-    constructor(private _http: HttpClient) { }
+@Injectable({ providedIn: 'root' })
+export class GamesDataService {
 
-    getGames(pageIndex: number, pageSize: number) {
+  constructor(private http: HttpClient) { }
 
-    }
-
-    getGamesByTeam(n: number) {
-
-    }
-
-    getgamesByState() {
-
-    }
+  fetchGames(pageIndex: number, pageSize: number) {
+    this.http.get<Game[]>(
+      'https://localhost:44320/api/game/1/6'
+    ).subscribe(games => {
+      console.log(games);
+    });
+  }
 }
